@@ -1,0 +1,24 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20rem;
+    padding-right: 10rem;
+    border-bottom: solid 1px black;
+}
+
+.search-input{
+    font-size: large;
+    padding: 5px;
+}
+
+a{
+    padding-right: 2rem;
+    size: 3rem ;
+}
+
+.nav-icons{
+    font-size: x-large;
+}
