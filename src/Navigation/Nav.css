@@ -1,6 +1,6 @@
 .nav-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -11,14 +11,22 @@
 
 .search-input{
     font-size: large;
-    padding: 5px;
+    padding: 12px 20px;
+    background-color: #f7f6f6;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10rem;
 }
 
 a{
     padding-right: 2rem;
     size: 3rem ;
+    text-decoration: none;
 }
 
 .nav-icons{
-    font-size: x-large;
+    width: 2rem;
+    height: 2rem;
+    color: red;
 }

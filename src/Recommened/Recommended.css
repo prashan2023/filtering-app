@@ -1,0 +1,20 @@
+.recommended-container{
+    margin-left: 20rem;   
+}
+
+.recommended-title{
+    margin-bottom:20px;
+}
+
+.recommended-btn{
+    padding: 2px 4px;
+    border: 1px solid black;
+    margin-right: 5px;
+    font-size: large;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.recommended-btn:hover{
+    background-color: lightblue;
+}

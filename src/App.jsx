@@ -6,8 +6,8 @@ import Recommended from "./Recommened/Recommended";
 const App =()=>{
   return(
     <div>
-       <Navigation/>
        <Sidebar/>
+       <Navigation/>
        <Recommended/>
        <Products/>
     </div>

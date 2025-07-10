@@ -1,0 +1,10 @@
+.sidebar-container{
+    position: fixed;
+    width : 19.5rem;
+    height: 60rem;
+    border-right: 2px solid #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
