@@ -1,15 +1,10 @@
 import "./products.css";
+import {MockData} from "../utils/MockData";
 import Card from "../components/Card/Card";
-
-const Products =()=>{
+const Products =({result})=>{
     return(
         <div className="product-container">
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
-           <Card/>
+            {result}
         </div>
     )
 }

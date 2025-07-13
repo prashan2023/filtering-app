@@ -4,14 +4,14 @@ import Price from "./Price/Price";
 import Colors from "./Colors/Colors";
 
 
-const Sidebar =()=>{
+const Sidebar =({hanldeRadioClick})=>{
     return(
         <div className="sidebar-container">
             <h2>🛒</h2>
             <div>
-                <Category/>
-                <Price/>
-                <Colors/>
+                <Category hanldeRadioClick={hanldeRadioClick}/>
+                <Price hanldeRadioClick={hanldeRadioClick}/>
+                <Colors hanldeRadioClick={hanldeRadioClick}/>
             </div>
         </div>
     )

@@ -2,23 +2,24 @@ import "./Card.css";
 import { CiStar } from "react-icons/ci";
 import { IoBagAdd } from "react-icons/io5";
 
-const Card =()=>{
+const Card =({img,title,newPrice,prevPrice})=>{
     return(
         <div className="product-card">
             <div>
                 <img 
                  className="card-img"
-                 src="https://m.media-amazon.com/images/I/61men05KRxL._AC_UY625_.jpg"/>
+                 src={img} 
+                 alt={title}/>
             </div>
             <div className="card-details">
-                <h2 className="card-title">Shoe</h2>
+                <h2 className="card-title">{title}</h2>
                 <div>
                     <CiStar className="star-icon"/><CiStar className="star-icon"/><CiStar className="star-icon"/><CiStar className="star-icon"/>
                     <span></span> (123reviews)
                 </div>  
                 <div className="card-price">
                     <div>
-                        <del className="price-tag">$ 400</del> 300
+                        <del className="price-tag">$ {prevPrice}</del> {newPrice}
                     </div>             
                     <IoBagAdd className="bag-icon"/>
                 </div>

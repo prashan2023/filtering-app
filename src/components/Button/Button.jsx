@@ -1,10 +1,9 @@
-import "Button.css";
+ 
 
-const Button =()=>{
+const Button =({handleButtonClick,value,title})=>{
+    console.log(value)
     return(
-        <div>
-
-        </div>
+           <button className="recommended-btn" onClick={handleButtonClick} value={value}>{title}</button>
     )
 }
 export default Button;
